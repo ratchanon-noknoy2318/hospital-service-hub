@@ -1,0 +1,379 @@
+{
+  "type": "flex",
+  "altText": "ตารางออกตรวจแพทย์ - แพทย์แผนไทย และ แผนจีน",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ตารางออกตรวจแพทย์",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "แพทย์แผนไทย และ แผนจีน",
+        "size": "md",
+        "color": "#FFFFFF",
+        "align": "center",
+        "margin": "md"
+      }
+    ],
+    "backgroundColor": "#2C5282",
+    "paddingAll": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "วัน",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          },
+          {
+            "type": "text",
+            "text": "08.30 - 11.30 น.",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          },
+          {
+            "type": "text",
+            "text": "13.00 - 16.30 น.",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          }
+        ],
+        "paddingBottom": "sm"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "จันทร์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร, แพทย์แผนจีน (ฝังเข็ม)",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร, แพทย์แผนจีน (ฝังเข็ม)",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "อังคาร",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร, แพทย์แผนจีน (ฝังเข็ม)",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร, แพทย์แผนจีน (ฝังเข็ม)",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พุธ",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พฤหัสบดี",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ศุกร์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "เสาร์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "อาทิตย์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "การนวด, อบ, ประคบสมุนไพร",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "wrap": true,
+            "text": "- การให้บริการการแพทย์แผนไทย และการแพทย์ทางเลือก ณ ศูนย์บริการแพทย์แผนไทย ทุกวัน เวลา 08.30 น. ถึง 16.30 น. ยกเว้นวันหยุดนักขัตฤกษ์ และวันหยุดราชการที่ติดกับวันหยุดนักขัตฤกษ์ สถานที่ตั้งอยู่ ถนนเทศบาล 1 ติดกับร้านอลังการเฟอร์นิเจอร์",
+            "weight": "bold"
+          }
+        ],
+        "margin": "xxl"
+      }
+    ],
+    "action": {
+      "type": "uri",
+      "label": "action",
+      "uri": "https://kppmch-service.vercel.app/HealthSchedule",
+      "altUri": {
+        "desktop": "https://kppmch-service.vercel.app/HealthSchedule"
+      }
+    }
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ดูรายละเอียดทั้งหมด",
+          "uri": "https://kppmch-service.vercel.app/HealthSchedule"
+        },
+        "style": "link",
+        "height": "sm",
+        "margin": "sm"
+      }
+    ]
+  }
+}
+}

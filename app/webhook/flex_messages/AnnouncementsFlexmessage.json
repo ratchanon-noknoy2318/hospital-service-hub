@@ -1,0 +1,135 @@
+{
+  "type": "flex",
+  "altText": "ประกาศจากโรงพยาบาล",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ประกาศ",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร",
+        "size": "md",
+        "color": "#FFFFFF",
+        "align": "center",
+        "margin": "md"
+      }
+    ],
+    "backgroundColor": "#2C5282",
+    "paddingAll": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "lg",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "backgroundColor": "#EBF8FF",
+        "borderColor": "#BEE3F8",
+        "borderWidth": "1px",
+        "cornerRadius": "md",
+        "paddingAll": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://cdn-icons-png.flaticon.com/512/1008/1008928.png",
+                "size": "sm",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "เรื่อง: การปรับเปลี่ยนเวลาให้บริการ",
+                "weight": "bold",
+                "wrap": true,
+                "size": "sm",
+                "color": "#2A4365"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "md",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร ขอแจ้งปรับเวลาการให้บริการดังนี้:",
+                "wrap": true,
+                "size": "sm",
+                "color": "#4A5568"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "margin": "lg",
+                "spacing": "md",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "•",
+                    "flex": 0,
+                    "color": "#2C5282"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ปิดรับคิวตรวจเวลา 11.30 น.",
+                    "size": "sm",
+                    "wrap": true,
+                    "color": "#2D3748",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "md",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "•",
+                    "flex": 0,
+                    "color": "#FF0033"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ยกเว้น: กรณีเจ็บป่วยฉุกเฉิน, เฉียบพลัน หรือจำเป็นต้องรับยา",
+                    "size": "sm",
+                    "wrap": true,
+                    "color": "#FF0033"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+}

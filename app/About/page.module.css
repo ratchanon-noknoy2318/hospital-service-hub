@@ -1,0 +1,185 @@
+/* Container for the whole page */
+.pageContainer {
+    background-color: var(--color-primary-light);
+}
+
+/* Main content area for single-column layouts */
+.mainContentSingleColumn {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+/* Wrapper for the main text content */
+.contentWrapper {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Titles */
+.aboutPageTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.aboutPageSubtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--color-text-secondary);
+    margin-bottom: 3rem;
+}
+
+/* General prose/text styling */
+.prose {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-primary);
+}
+
+.prose h3 {
+    font-size: 1.5rem;
+    color: var(--color-primary-dark);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.prose ul {
+    list-style-position: outside;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.prose li {
+    margin-bottom: 0.5rem;
+}
+
+/* Grid for history section */
+.aboutGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.aboutImageWrapper {
+    width: 100%;
+}
+
+.aboutImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Team Section */
+.teamSection {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.teamTitle {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.teamSubtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 2.5rem;
+}
+
+.teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2rem;
+    text-align: left;
+}
+
+.teamCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teamCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.teamImageWrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+
+.teamImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.teamInfo {
+    padding: 1rem;
+}
+.teamName {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: 0.25rem;
+}
+.teamTitleText {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+}
+
+/* Gallery Section */
+.gallerySection {
+    margin-top: 4rem;
+}
+
+.galleryTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.galleryItem {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.galleryImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.galleryImage:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+    .aboutGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

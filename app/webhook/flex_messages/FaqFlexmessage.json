@@ -1,0 +1,209 @@
+{
+  "type": "flex",
+  "altText": "คำถามที่พบบ่อย",
+  "contents": {
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "คำถามที่พบบ่อย (FAQ)",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#FFFFFF",
+        "align": "center"
+      }
+    ],
+    "backgroundColor": "#2C5282",
+    "paddingAll": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q: สามารถขอใบรับรองแพทย์เพื่อใช้ในราชการที่โรงพยาบาลได้หรือไม่?",
+                "color": "#2C5282",
+                "size": "sm",
+                "weight": "bold",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "A: ได้ค่ะ หากใช้แบบฟอร์มของทางเรา สามารถขอใบรับรองแพทย์ได้ทันทีค่ะ แต่หากเป็นแบบฟอร์มจากหน่วยงานอื่น กรุณาให้เจ้าหน้าที่ตรวจสอบก่อน เพื่อพิจารณาความเหมาะสมในการออกใบรับรองค่ะ",
+                "size": "sm",
+                "color": "#555555",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q: สามารถขอใบรับรองแพทย์ได้มากกว่าหนึ่งฉบับหรือไม่?",
+                "color": "#2C5282",
+                "size": "sm",
+                "weight": "bold",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "A: ได้ค่ะ ใบแรก 80 บาทใบถัดไปเพิ่มใบละ 30 บาท",
+                "size": "sm",
+                "color": "#555555",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q: โรงพยาบาลเปิดให้บริการในวันเสาร์-อาทิตย์หรือไม่?",
+                "color": "#2C5282",
+                "size": "sm",
+                "weight": "bold",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "A: ทางเราปิดให้บริการในวันเสาร์ วันอาทิตย์ และวันหยุดนักขัตฤกษ์ค่ะ",
+                "size": "sm",
+                "color": "#555555",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q: ในวันทำการปกติ โรงพยาบาลเปิดให้บริการถึงเวลาใด?",
+                "color": "#2C5282",
+                "size": "sm",
+                "weight": "bold",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "A: คุณหมอจะตรวจตั้งแต่ 08:30 น. ถึง 12.00 น. แต่จะรับคิวตรวจถึง 11.30 น. ค่ะ",
+                "size": "sm",
+                "color": "#555555",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q: สามารถจองคิวนวดกับทางโรงพยาบาลได้หรือไม่?",
+                "color": "#2C5282",
+                "size": "sm",
+                "weight": "bold",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "A: รบกวนโทรติดต่อที่ 055714924 ค่ะ",
+                "size": "sm",
+                "color": "#555555",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Q: ไม่ทราบว่าทางนี้มีกำหนดการฉีดวัคซีนสำหรับเด็กในวันที่เท่าใดคะ?",
+                "color": "#2C5282",
+                "size": "sm",
+                "weight": "bold",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "A: สัปดาห์ที่ 2 และสัปดาห์ที่ 4 ของทุกเดือน ในวันพฤหัสบดีช่วงบ่ายค่ะ สามารถติดต่อสอบถามเพิ่มเติมได้ที่หมายเลขโทรศัพท์ 055-716715",
+                "size": "sm",
+                "color": "#555555",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [],
+    "paddingAll": "none"
+  }
+}
+}

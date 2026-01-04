@@ -1,0 +1,157 @@
+/* --- สไตล์สำหรับแบนเนอร์ LINE OA แบบลอย (Floating) --- */
+
+/* --- Desktop View: แสดงเป็นกล่องลอยด้านขวาบน --- */
+.floatingContainer {
+    position: fixed;
+    top: 80px; /* ย้ายจาก bottom มา top และปรับระยะห่างจากขอบบน */
+    right: 25px;
+    width: 220px;
+    background-color: #ffffff;
+    border-radius: 12px; 
+    /* เงาที่ซับซ้อนขึ้นเพื่อสร้างมิติ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05), 
+                0 10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    /* เพิ่ม transition สำหรับ hover effect */
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    /* เอียงป้ายเล็กน้อยเพื่อให้ดูมีมิติ */
+    transform: rotateY(-3deg) rotateX(-3deg); /* ปรับการเอียงให้เข้ากับมุมบน */
+}
+
+/* --- Hover Effect: เอฟเฟกต์เมื่อนำเมาส์ไปวางบนแบนเนอร์ --- */
+.floatingContainer:hover {
+    /* ทำให้ป้ายลอยขึ้นและตรงขึ้นเมื่อ hover */
+    transform: translateY(-5px) rotateY(0) rotateX(0);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 
+                0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* --- โครงสร้างเนื้อหาภายในแบนเนอร์ --- */
+.adContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* --- ปุ่มปิด (X) --- */
+.closeButton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 0.8;
+    color: #9ca3af; /* gray-400 */
+    cursor: pointer;
+    padding: 0;
+    z-index: 1; /* ให้ปุ่มปิดอยู่ด้านบนสุด */
+}
+
+.closeButton:hover {
+    color: #374151; /* gray-700 */
+}
+
+/* --- สไตล์ข้อความและปุ่มภายในแบนเนอร์ --- */
+.adTitle {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #16a34a; /* green-600 */
+    margin: 0 0 0.25rem 0;
+}
+
+.adText {
+    font-size: 0.85rem;
+    color: #4b5563; /* gray-600 */
+    margin: 0 0 0.75rem 0;
+}
+
+.qrWrapper {
+    margin-bottom: 1rem;
+}
+
+.qrImage {
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.addButton {
+    display: inline-block;
+    width: 100%;
+    background-color: #16a34a; /* green-600 */
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.addButton:hover {
+    background-color: #15803d; /* green-700 */
+}
+
+.lineId {
+    font-size: 0.8rem;
+    color: #6b7280; /* gray-500 */
+    margin: 0.75rem 0 0 0;
+}
+
+/* --- Mobile View (Responsive): แสดงเป็นแบนเนอร์ติดด้านล่างของจอ --- */
+@media (max-width: 768px) {
+    .floatingContainer {
+        /* --- เปลี่ยนเป็นแบนเนอร์ด้านล่างสำหรับมือถือ --- */
+        top: auto;
+        bottom: 0; /* กำหนดให้อยู่ด้านล่างสุด */
+        right: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 0.5rem 1rem;
+        transform: none; /* ลบการเอียงออก */
+        box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* ปรับเงาให้อยู่ด้านบน */
+        border: none;
+        border-top: 1px solid #e5e7eb; /* ปรับเส้นขอบให้อยู่ด้านบน */
+    }
+    /* ปิดการใช้งาน hover effect บนมือถือ */
+    .floatingContainer:hover {
+        transform: none;
+    }
+    .adContent {
+        /* จัดเรียงเนื้อหาเป็นแนวนอน */
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0.75rem;
+    }
+    .qrWrapper, .lineId {
+        display: none; /* ซ่อน QR Code และ Line ID บนมือถือ */
+    }
+    /* ปรับขนาดและสไตล์ข้อความสำหรับมือถือ */
+    .adTitle, .adText {
+        margin: 0;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    .adTitle {
+        font-size: 0.9rem;
+        color: var(--color-text-primary);
+    }
+    /* ปรับขนาดปุ่มสำหรับมือถือ */
+    .addButton {
+        width: auto;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+        flex-shrink: 0; /* ไม่ให้ปุ่มถูกบีบ */
+    }
+    .closeButton {
+        /* ย้ายปุ่มปิดไปอยู่ท้ายสุดใน layout แนวนอน */
+        position: static;
+        order: 3; /* ย้ายปุ่มปิดไปท้ายสุด */
+        font-size: 1.4rem;
+        align-self: center;
+    }
+}

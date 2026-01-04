@@ -1,0 +1,308 @@
+{
+  "type": "flex",
+  "altText": "ตรวจรักษาโรคทั่วไป",
+  "contents": {
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ตารางออกตรวจแพทย์",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "ตรวจรักษาโรคทั่วไป",
+        "size": "md",
+        "color": "#FFFFFF",
+        "align": "center",
+        "margin": "md"
+      }
+    ],
+    "backgroundColor": "#2C5282",
+    "paddingAll": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "วัน",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          },
+          {
+            "type": "text",
+            "text": "8.30 - 11.30 น.",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          },
+          {
+            "type": "text",
+            "text": "13.00 - 16.30 น.",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          }
+        ],
+        "paddingBottom": "sm"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "จันทร์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "นพ.กำชัย รังสิยานนท์ / พญ.จริดา  สันธิติพงศ์",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "เยี่ยมบ้านผู้ป่วยในชุมชน",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "อังคาร",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "นพ.กำชัย รังสิยานนท์ / พญ.จริดา  สันธิติพงศ์",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "เยี่ยมบ้านผู้ป่วยในชุมชน",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พุธ",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "นพ.กำชัย รังสิมันต์ไพบูลย์ / พญ.จริดา สันธิติวงษ์",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "เยี่ยมบ้านผู้ป่วยในชุมชน",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พฤหัสบดี",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "นพ.กำชัย รังสิมันต์ไพบูลย์ / พญ.จริดา สันธิติวงษ์",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "เยี่ยมบ้านผู้ป่วยในชุมชน",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ศุกร์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "นพ.กำชัย รังสิมันต์ไพบูลย์ / พญ.จริดา สันธิติวงษ์",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "เยี่ยมบ้านผู้ป่วยในชุมชน",
+            "size": "xs",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "wrap": true
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "**สแกน QR Code เพื่อลงทะเบียน Telemedicine ผ่าน Line OA โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร",
+            "wrap": true,
+            "weight": "bold",
+            "color": "#0d47a1"
+          },
+          {
+            "type": "image",
+            "url": "https://qr-official.line.me/gs/M_133rkonx_GW.png?oat_content=qr",
+            "size": "3xl"
+          }
+        ],
+        "margin": "xxl"
+      }
+    ],
+    "action": {
+      "type": "uri",
+      "label": "action",
+      "uri": "https://kppmch-service.vercel.app/GeneralSchedule"
+    }
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ดูรายละเอียดทั้งหมด",
+          "uri": "https://kppmch-service.vercel.app/GeneralSchedule"
+        }
+      }
+    ]
+  }
+}
+}

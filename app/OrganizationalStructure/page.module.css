@@ -1,0 +1,213 @@
+/* === สไตล์สำหรับหน้าโครงสร้างองค์กร === */
+/* Layout หลักของหน้า */
+.pageContainer {
+    background-color: var(--color-primary-light);
+    padding: 2rem 0;
+}
+
+.mainContentSingleColumn {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* ส่วนหัวของหน้า */
+.orgChartHeader {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.orgChartPageTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.orgChartPageSubtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+}
+
+/* โครงสร้างของผังองค์กร */
+.orgChartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orgLevel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* เส้นเชื่อมในผังองค์กร */
+.orgConnector {
+    width: 2px;
+    height: 30px;
+    background-color: #cbd5e1; /* gray-300 */
+}
+
+.orgHorizontalConnector, .orgHorizontalConnectorLg {
+    width: 100%;
+    height: 2px;
+    background-color: #cbd5e1;
+    margin: 0 auto;
+}
+
+.orgHorizontalConnector {
+    max-width: 50%;
+}
+
+.orgHorizontalConnectorLg {
+    max-width: 80%;
+}
+
+.orgVerticalConnector {
+    width: 2px;
+    height: 20px;
+    background-color: #cbd5e1;
+    margin: 0 auto;
+}
+
+/* กล่องสำหรับจัดกลุ่มแผนก */
+.orgGroupWrapper, .orgGroupWrapperLg {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.orgGroupBoxTeal, .orgGroupBoxGray {
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid;
+}
+
+.orgGroupBoxTeal {
+    background-color: #E6FFFA; /* teal-50 */
+    border-color: #B2F5EA; /* teal-200 */
+}
+
+.orgGroupBoxGray {
+    background-color: #F7FAFC; /* gray-100 */
+    border-color: #E2E8F0; /* gray-200 */
+}
+
+.orgGroupBoxTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    margin-bottom: 20px;
+}
+
+/* Grid Layout สำหรับจัดเรียงการ์ดในกลุ่ม */
+.orgGroupGrid2Cols, .orgGroupGrid3Cols {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.orgGroupGrid2Cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orgGroupGrid3Cols {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.orgGroupItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* สไตล์ของการ์ดแสดงข้อมูลบุคลากร */
+.orgCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: 1px solid #E2E8F0;
+    width: 100%;
+}
+
+/* เส้นสีด้านบนการ์ด (ไม่ได้ใช้งานในปัจจุบัน แต่เก็บไว้เผื่ออนาคต) */
+.orgCardLevel1 { border-top: 4px solid var(--color-primary); }
+.orgCardLevel2 { border-top: 4px solid var(--color-accent); }
+.orgCardLevel3 { border-top: 4px solid #63B3ED; /* blue-400 */ }
+.orgCardLevel4 { border-top: 4px solid #4FD1C5; /* teal-400 */ }
+.orgCardLevel5 { border-top: 4px solid #A0AEC0; /* gray-400 */ }
+
+.orgCardImageContainer {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.orgCardImage {
+    object-fit: cover;
+}
+
+.orgCardName, .orgCardNameLarge {
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+.orgCardName { font-size: 0.9rem; }
+.orgCardNameLarge { font-size: 1.1rem; }
+
+.orgCardTitle, .orgCardTitleImportant {
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+}
+.orgCardTitle { font-size: 0.8rem; }
+.orgCardTitleImportant { font-size: 0.9rem; }
+
+/* Helper classes สำหรับกำหนดความกว้างสูงสุดของการ์ด */
+.w64 { max-width: 16rem; }
+.w72 { max-width: 18rem; }
+
+/* ส่วนท้ายของหน้า (ปุ่มกลับหน้าแรก) */
+.orgChartFooter {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Re-using button style from page.module.css for consistency */
+.buttonPrimary {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.buttonPrimary:hover {
+  background-color: var(--color-accent-hover);
+}
+
+/* การปรับแก้สำหรับ Responsive */
+@media (max-width: 768px) {
+    .orgGroupGrid2Cols, .orgGroupGrid3Cols {
+        grid-template-columns: 1fr;
+    }
+    .orgChartPageTitle {
+        font-size: 2rem;
+    }
+}

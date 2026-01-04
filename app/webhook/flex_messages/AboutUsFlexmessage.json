@@ -1,0 +1,171 @@
+{
+  "type": "flex",
+  "altText": "เกี่ยวกับโรงพยาบาล",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "0px",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://scontent.fbkk29-8.fna.fbcdn.net/v/t39.30808-6/474216920_122108645312712499_8011917405717673334_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UO77we6AOYkQ7kNvwFMLkA6&_nc_oc=Adkqdv4XIxXStIuEZgRUKAwTQTG5_UfJezL5RmYuStNSYvbyGHfELMO-QhTCSeXIiCSsGsf1qTWxEFTzBmMqcIvB&_nc_zt=23&_nc_ht=scontent.fbkk29-8.fna&_nc_gid=Likzq0So3G2K3MRgln02oQ&oh=00_AfZ0x-ddG6bOXQ3DtPcG6KLg3tDaeEBYgJl6Q89MU-IqLg&oe=68DD5559",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "position": "absolute",
+        "width": "100%",
+        "height": "100%",
+        "backgroundColor": "#00000088",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "paddingAll": "xl",
+        "contents": [
+          {
+            "type": "text",
+            "text": "เกี่ยวกับเรา",
+            "weight": "bold",
+            "size": "xxl",
+            "color": "#FFFFFF"
+          },
+          {
+            "type": "text",
+            "text": "โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร",
+            "size": "md",
+            "color": "#F0F0F0",
+            "margin": "md"
+          }
+        ]
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "lg",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เราให้บริการด้วยใจ ห่วงใยสุขภาพของท่าน ดุจญาติมิตร มุ่งมั่นที่จะเป็นสถานพยาบาลชั้นนำที่ให้บริการด้านสุขภาพอย่างครบวงจร",
+        "wrap": true,
+        "size": "sm",
+        "color": "#4A4A4A",
+        "align": "center"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "lg",
+            "alignItems": "center",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "วิสัยทัศน์ (Vision)",
+                    "weight": "bold",
+                    "color": "#2C5282",
+                    "size": "md"
+                  },
+                  {
+                    "type": "text",
+                    "text": "เป็นองค์กรชั้นนำด้านการสร้างเสริมสุขภาพและป้องกันโรค เพื่อให้ประชาชนมีสุขภาวะที่ดีอย่างยั่งยืน",
+                    "wrap": true,
+                    "size": "sm",
+                    "color": "#555555",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "lg",
+            "alignItems": "center",
+            "margin": "xl",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "พันธกิจ (Mission)",
+                    "weight": "bold",
+                    "color": "#2C5282",
+                    "size": "md"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ให้บริการสุขภาพแบบองค์รวม, พัฒนาศักยภาพบุคลากร, สร้างเครือข่ายความร่วมมือ และส่งเสริมความรู้ด้านสุขภาพ",
+                    "wrap": true,
+                    "size": "sm",
+                    "color": "#555555",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ดูเพิ่มเติมบนเว็บไซต์",
+          "uri": "https://kppmch-service.vercel.app/About",
+          "altUri": {
+            "desktop": "https://kppmch-service.vercel.app/About"
+          }
+        },
+        "style": "primary",
+        "color": "#2B6CB0",
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ดูเว็บไซต์หลักของเรา",
+          "uri": "https://kppmch-service.vercel.app/",
+          "altUri": {
+            "desktop": "https://kppmch-service.vercel.app/"
+          }
+        },
+        "style": "secondary",
+        "height": "sm"
+      }
+    ]
+  }
+}
+}

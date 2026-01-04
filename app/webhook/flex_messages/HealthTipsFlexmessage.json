@@ -1,0 +1,285 @@
+{
+  "type": "flex",
+  "altText": "สาระสุขภาพที่น่าสนใจ",
+  "contents":{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://img.youtube.com/vi/456D4i-0Lvs/hqdefault.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "โภชนาการ",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "โภชนาการที่ดี: ทานอาหารให้ครบ 5 หมู่",
+            "weight": "bold",
+            "size": "xl",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "โดย: TNN Health",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "margin": "md",
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "การรับประทานอาหารที่สมดุลและครบถ้วนเป็นพื้นฐานของสุขภาพที่ดี เรียนรู้เกี่ยวกับความสำคัญของแต่ละหมู่และวิธีจัดสรรในแต่ละมื้อ",
+            "wrap": true,
+            "size": "sm",
+            "margin": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "อ่านบทความ",
+              "uri": "https://youtu.be/456D4i-0Lvs?si=3LHtv5EKXPaW8l4J",
+              "altUri": {
+                "desktop": "https://youtu.be/456D4i-0Lvs?si=3LHtv5EKXPaW8l4J"
+              }
+            },
+            "color": "#2B6CB0"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://img.youtube.com/vi/5G9xO8LL-gw/hqdefault.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "การออกกำลังกาย",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "ท่าบริหารหัวใจให้แข็งแรงสำหรับผู้สูงอายุ",
+            "weight": "bold",
+            "size": "xl",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "โดย: Thai PBS",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "margin": "md",
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "แนะนำ 3 ท่าบริหารหัวใจแข็งแรงสำหรับผู้สูงอายุที่จะช่วยเสริมสร้างความแข็งแรงให้กับกล้ามเนื้อหัวใจ เพิ่มการไหลเวียนของเลือดสามารถหล่อเลี้ยงสมองและหัวใจให้ดีขึ้น",
+            "wrap": true,
+            "size": "sm",
+            "margin": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "อ่านบทความ",
+              "uri": "https://youtu.be/5G9xO8LL-gw?si=bDFBWTtkPNT-CfQD",
+              "altUri": {
+                "desktop": "https://youtu.be/5G9xO8LL-gw?si=bDFBWTtkPNT-CfQD"
+              }
+            },
+            "color": "#2B6CB0"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://img.youtube.com/vi/AiILc207wgE/hqdefault.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "การนอนหลับ",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "\"การนอนหลับ\" เรื่องใกล้ตัวที่ไม่ควรมองข้าม",
+            "weight": "bold",
+            "size": "xl",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "โดย:  BDMS Wellness Clinic",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "margin": "md",
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "การนอนคือของขวัญจากธรรมชาติที่ช่วยฟื้นฟูทั้งร่างกายและจิตใจ ทำให้เรามีพลัง สดชื่น และพร้อมใช้ชีวิตอย่างสมดุล  อยากให้ผมสรุปอ",
+            "wrap": true,
+            "size": "sm",
+            "margin": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "อ่านบทความ",
+              "uri": "https://youtu.be/AiILc207wgE?si=15XPTyzU1joGFZMq",
+              "altUri": {
+                "desktop": "https://youtu.be/AiILc207wgE?si=15XPTyzU1joGFZMq"
+              }
+            },
+            "color": "#2B6CB0"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://img.youtube.com/vi/UDbqI7wKxy4/hqdefault.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ลดความเครียด",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "Rehab see you - EP.24 การจัดการความเครียด",
+            "weight": "bold",
+            "size": "xl",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "โดย:  Rehab Chula official",
+            "size": "xs",
+            "color": "#8c8c8c",
+            "margin": "md",
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "การจัดการความเครียดคือการ เข้าใจสาเหตุ ปรับความคิด ผ่อนคลายร่างกาย และสร้างกิจวัตรที่ดี พร้อมทั้งขอความช่วยเหลือเมื่อจำเป็น EP.24 จึงเน้นทั้งเรื่องการสังเกตตัวเองและการใช้เครื่องมือทางจิตวิทยาเพื่อควบคุมความเครียดอย่างมีประสิทธิภาพ",
+            "wrap": true,
+            "size": "sm",
+            "margin": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "อ่านบทความ",
+              "uri": "https://youtu.be/UDbqI7wKxy4?si=TECuFU4RtomFiGkV",
+              "altUri": {
+                "desktop": "https://youtu.be/UDbqI7wKxy4?si=TECuFU4RtomFiGkV"
+              }
+            },
+            "color": "#2B6CB0"
+          }
+        ]
+      }
+    }
+  ]
+}
+}

@@ -1,0 +1,104 @@
+{
+  "type": "flex",
+  "altText": "ประชาสัมพันธ์จากโรงพยาบาล",
+  "contents": {
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ประชาสัมพันธ์",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร",
+        "size": "sm",
+        "color": "#FFFFFF",
+        "align": "center",
+        "margin": "md"
+      }
+    ],
+    "backgroundColor": "#2C5282",
+    "paddingAll": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "lg",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ติดตามข่าวสารและกิจกรรมต่างๆ ของโรงพยาบาลได้ง่ายๆ ผ่านช่องทางโซเชียลมีเดียของเรา! กดติดตามเลยเพื่อไม่พลาดทุกการอัปเดต ✨",
+        "wrap": true,
+        "size": "sm",
+        "color": "#4b5563",
+        "align": "start"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Facebook",
+              "uri": "https://www.facebook.com/kmch.kpp"
+            },
+            "style": "primary",
+            "color": "#1877F2",
+            "height": "sm"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "TikTok",
+              "uri": "https://www.tiktok.com/@kppmuch?_t=ZS-8zFWUTYE1Yu&_r=1"
+            },
+            "style": "primary",
+            "color": "#000000",
+            "height": "sm"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "🔔 แจ้งเตือน: ปิดรับบัตรคิวเวลา 11.30 น. (ยกเว้นกรณีเจ็บป่วยฉุกเฉิน/เฉียบพลัน)",
+            "wrap": true,
+            "size": "xs",
+            "color": "#dc2626",
+            "weight": "bold",
+            "align": "center"
+          }
+        ]
+      }
+    ]
+  }
+}
+}

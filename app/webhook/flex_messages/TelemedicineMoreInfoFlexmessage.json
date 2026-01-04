@@ -1,0 +1,165 @@
+{
+  "type": "flex",
+  "altText": "บริการเพิ่มเติม",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Help Center",
+            "weight": "bold",
+            "size": "xl",
+            "align": "center",
+            "color": "#333333",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "ศูนย์ช่วยเหลือบริการ Telemedicine เพิ่มเติม เพื่ออำนวยความสะดวกแก่ผู้รับบริการ",
+            "size": "sm",
+            "align": "center",
+            "color": "#666666",
+            "wrap": true
+          }
+        ],
+        "spacing": "sm"
+      }
+    ],
+    "paddingAll": "20px",
+    "backgroundColor": "#F8F9FA"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "เว็บไซต์ทางการ (Official Website)",
+              "uri": "https://kppmch-register.vercel.app/",
+              "altUri": {
+                "desktop": "https://kppmch-register.vercel.app/"
+              }
+            },
+            "color": "#2B6CB0"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "บริการการแพทย์ทางไกล คืออะไร?",
+              "uri": "https://kppmch-register.vercel.app/what-is-it",
+              "altUri": {
+                "desktop": "https://kppmch-register.vercel.app/what-is-it"
+              }
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "3 ขั้นตอนง่ายๆ ใช้บริการ",
+              "uri": "https://kppmch-register.vercel.app/#how-it-works",
+              "altUri": {
+                "desktop": "https://kppmch-register.vercel.app/#how-it-works"
+              }
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ข้อดีของบริการ Telemedicine",
+              "uri": "https://kppmch-register.vercel.app/#advantages",
+              "altUri": {
+                "desktop": "https://kppmch-register.vercel.app/#advantages"
+              }
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ข้อจำกัดของบริการ Telemedicine",
+              "uri": "https://kppmch-register.vercel.app/#limitations",
+              "altUri": {
+                "desktop": "https://kppmch-register.vercel.app/#limitations"
+              }
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ข้อตกลงและเงื่อนไขการใช้บริการ",
+              "uri": "https://kppmch-register.vercel.app/terms"
+            },
+            "margin": "md"
+          }
+        ],
+        "spacing": "sm"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      }
+    ],
+    "spacing": "md",
+    "paddingAll": "20px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Available 24/7",
+            "size": "xs",
+            "color": "#999999",
+            "flex": 1,
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      }
+    ],
+    "backgroundColor": "#F8F9FA"
+  }
+}
+}

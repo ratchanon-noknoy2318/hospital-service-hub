@@ -1,0 +1,283 @@
+{
+  "type": "flex",
+  "altText": "ข้อมูลติดต่อโรงพยาบาล",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://scontent.fbkk22-1.fna.fbcdn.net/v/t39.30808-6/557548208_122142821024712499_7841310538937437388_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=snx-HgHXBVkQ7kNvwF1ejmM&_nc_oc=Adlb1BOPeiuWcfoGk9__GAZrabvXjrFuI-Yxt9Sp1Yfc5QA2KDD4e66O0PrYQPQZOwpj5JL35_X9lDkq7wkWanGR&_nc_zt=23&_nc_ht=scontent.fbkk22-1.fna&_nc_gid=-YuCq2HaGwiVQNY64pN40g&oh=00_AfZkkTQrLQMHxKHNrRv4Q7W2N5CoUsVQkBnRqDk0R_ksgA&oe=68E3FA74",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "🏥 โรงพยาบาลชุมชเทศบาลเมืองกำแพงเพชร",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#2C5282",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "35 ซ.2 ภ.ราชดำเนิน 1 ต.ในเมือง อ.เมืองกำแพงเพชร",
+        "size": "sm",
+        "color": "#666666",
+        "margin": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🚨",
+                "color": "#E74C3C",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "ติดต่อฉุกเฉิน",
+                "weight": "bold",
+                "color": "#E74C3C",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "1669",
+                "weight": "bold",
+                "size": "sm",
+                "color": "#E74C3C",
+                "flex": 3,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "☎️",
+                "color": "#4b5563",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "สายตรงโรงพยาบาล",
+                "color": "#666666",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "055-716-715",
+                "size": "sm",
+                "color": "#111111",
+                "flex": 3,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🟢",
+                "color": "#27AE60",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": " ID Line : ",
+                "color": "#666666",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "@133rkonx",
+                "size": "sm",
+                "color": "#111111",
+                "flex": 3,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "📧",
+                "color": "#F39C12",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "Email : \nprathomhealth@gmail.com",
+                "color": "#666666",
+                "size": "sm",
+                "flex": 7,
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🕐",
+                "color": "#9B59B6",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "เวลาทำการ\nในวันและเวลาราชการเท่านั้น",
+                "color": "#666666",
+                "size": "sm",
+                "flex": 7,
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "🚨 Emergency call",
+          "uri": "tel:1669"
+        },
+        "color": "#E74C3C"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "📞 Call us",
+              "uri": "tel:055716715"
+            },
+            "flex": 1
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "🗺️ Our location",
+              "uri": "https://maps.app.goo.gl/dapP53qvxXsBAdD7A",
+              "altUri": {
+                "desktop": "https://maps.app.goo.gl/dapP53qvxXsBAdD7A"
+              }
+            },
+            "flex": 1
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "🟢 Add friend",
+              "uri": "https://lin.ee/TrkLTMr",
+              "altUri": {
+                "desktop": "https://lin.ee/TrkLTMr"
+              }
+            },
+            "flex": 1
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "🌐 Send an email",
+              "uri": "mailto:prathomhealth@gmail.com",
+              "altUri": {
+                "desktop": "mailto:prathomhealth@gmail.com"
+              }
+            },
+            "flex": 1
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "สำหรับการติดต่อโรงพยาบาล กรุณาโทรศัพท์หมายเลข 055-716715",
+        "size": "xs",
+        "color": "#999999",
+        "align": "center",
+        "margin": "sm",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:055716715"
+        }
+      }
+    ]
+  }
+}
+}
