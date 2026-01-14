@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import styles from '../styles/Thai&AltSchedule.module.css'; // Import local styles for this page
+import styles from './page.module.css'; // Import local styles for this page
 
 // --- ข้อมูลตารางการให้บริการ (แพทย์แผนไทยและทางเลือก) ---
 const tableDataWithGroup = [ 

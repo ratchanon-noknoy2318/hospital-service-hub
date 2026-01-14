@@ -1,7 +1,7 @@
 'use client'; // Required for useState and onClick handlers
 
 import React from 'react';
-import styles from '../styles/HealthSchedule.module.css'; // Import local styles for this page
+import styles from './page.module.css'; // Import local styles for this page
 
 // --- ข้อมูลตารางการให้บริการ ---
 // firstName คือบริการช่วงเช้า, lastName คือบริการช่วงบ่าย
