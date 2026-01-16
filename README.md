@@ -5,6 +5,13 @@
 
 ---
 
+### System Visuals
+<p align="center">
+  <img src="https://kppmch-service.vercel.app/og-image.png" alt="System Screenshot" width="800">
+</p>
+
+---
+
 ### Project Specification
 | Category | Detail |
 | :--- | :--- |
@@ -15,21 +22,21 @@
 
 ---
 
-### Technical Infrastructure
-| Component | Technology | Description |
-| :--- | :--- | :--- |
-| **Core Engine** | Next.js | Server-side rendering for high performance & SEO |
-| **Styling** | Tailwind CSS | Utility-first responsive design |
-| **CI/CD** | Vercel | Automated deployment pipeline |
-| **Architecture** | Centralized Portal | Unified access point for hospital digital services |
+### Key Features Highlight
+* **Digital Health Gateway:** A unified entry point for all digital hospital services and citizen communication channels.
+* **Health Education Repository:** Structured management of public health resources, enabling easy access for the community.
+* **Dynamic Department Scheduling:** Real-time visibility of medical department availability and service hours.
+* **Performance & SEO:** Optimized with Next.js to achieve high Core Web Vitals scores and search engine visibility.
 
 ---
 
-### Core Functional Modules
-* **Service Integration:** Centralized directory for medical and digital services.
-* **Resource Repository:** Structured access to public health information.
-* **Schedule Viewer:** Real-time display of department and staff availability.
-* **Responsive UI:** Optimized for patient accessibility on all mobile devices.
+### Technical Infrastructure
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Core Engine** | Next.js | Server-side rendering for high performance and optimal SEO |
+| **Styling** | Tailwind CSS | Scalable, utility-first responsive design system |
+| **CI/CD** | Vercel | Automated deployment pipeline via Global Edge Network |
+| **Architecture** | Centralized Portal | Aggregated access point for distributed hospital services |
 
 ---
 
