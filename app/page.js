@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import styles from './styles/page.module.css';
+import styles from './page.module.css';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -16,9 +16,39 @@ export default function HomePage() {
     setOpenFaqId(openFaqId === id ? null : id);
   };
 
+  // --- ข้อมูล FAQ สำหรับแสดงผลและทำ SEO Schema Markup ---
+  const faqData = [
+    { id: 1, question: "สามารถขอใบรับรองแพทย์เพื่อใช้ในราชการที่โรงพยาบาลได้หรือไม่?", answer: "ได้ค่ะ หากใช้แบบฟอร์มของทางเรา สามารถขอใบรับรองแพทย์ได้ทันทีค่ะ แต่หากเป็นแบบฟอร์มจากหน่วยงานอื่น กรุณาให้เจ้าหน้าที่ตรวจสอบก่อน เพื่อพิจารณาความเหมาะสมในการออกใบรับรองค่ะ " },
+    { id: 2, question: "สามารถขอใบรับรองแพทย์ได้มากกว่าหนึ่งฉบับหรือไม่?", answer: "ได้ค่ะ ใบแรก 80 บาทใบถัดไปเพิ่มใบละ 30 บาท" },
+    { id: 3, question: "โรงพยาบาลเปิดให้บริการในวันเสาร์-อาทิตย์หรือไม่?", answer: "ทางเราปิดให้บริการในวันเสาร์ วันอาทิตย์ และวันหยุดนักขัตฤกษ์ค่ะ" },
+    { id: 4, question: "ในวันทำการปกติ โรงพยาบาลเปิดให้บริการถึงเวลาใด?", answer: "คุณหมอจะตรวจตั้งแต่ 08:30 น. ถึง 12.00 น. แต่จะรับคิวตรวจถึง 11.30 น. ค่ะ" },
+    { id: 5, question: "สามารถจองคิวนวดกับทางโรงพยาบาลได้หรือไม่?", answer: "รบกวนโทรติดต่อที่ 055714924 ค่ะ" },
+    { id: 6, question: "ไม่ทราบว่าทางนี้มีกำหนดการฉีดวัคซีนสำหรับเด็กในวันที่เท่าใดคะ?", answer: "สัปดาห์ที่ 2 และสัปดาห์ที่ 4 ของทุกเดือน ในวันพฤหัสบดีช่วงบ่ายค่ะ สามารถติดต่อสอบถามเพิ่มเติมได้ที่หมายเลขโทรศัพท์ 055-716715" }
+  ];
+
+  // --- JSON-LD Schema สำหรับ FAQPage (SEO) ---
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqData.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  };
+
   return (
     // <main> เป็น container หลักสำหรับเนื้อหาทั้งหมดในหน้านี้
     <main className={styles.main}>
+      {/* SEO: เพิ่ม JSON-LD Schema สำหรับ FAQ เพื่อให้ Google แสดงผล Rich Snippet */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* 
         Hero Section: ส่วนแรกที่ผู้ใช้เห็นเมื่อเข้ามาในเว็บไซต์ (Above the fold)
         - ประกอบด้วยภาพผู้บริหารเพื่อสร้างความน่าเชื่อถือ
@@ -36,7 +66,7 @@ export default function HomePage() {
         <motion.div className={styles.heroImageContainer} initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, delay: 0.2 }}>
           <Image
             src="/hero/hero-image.jpg"
-            alt="นางสาวพิชญา หงษ์สุตะเมธี - หัวหน้าฝ่ายบริหารงานทั่วไป (รักษาราชการแทน ผอ.กองสาธารณสุขฯ)"
+            alt="นางสาวพิชญา หงษ์สุตะเมธี - โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร"
             width={400}
             height={500}
             className={styles.heroImage}
@@ -135,7 +165,7 @@ export default function HomePage() {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <Image src="/value/value-3.jpg" alt="สถานพยาบาลที่สะอาดและปลอดภัย" width={300} height={200} sizes="(max-width: 768px) 100vw, 33vw" />
+            <Image src="/value/value-3.jpg" alt="โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร" width={300} height={200} sizes="(max-width: 768px) 100vw, 33vw" />
             <h3>สะอาดและปลอดภัย</h3>
             <p>ความปลอดภัยคือสิ่งที่เรายึดมั่น สถานพยาบาลของเรามีมาตรฐานความสะอาดสูงสุด</p>
           </motion.div>
@@ -180,7 +210,7 @@ export default function HomePage() {
         <div className={styles.servicesImageContainer}>
           <Image
             src="/services/services-image.jpg"
-            alt="รองปูกับพี่แอน"
+            alt="บรรยากาศการให้บริการและเครื่องมือทางการแพทย์ โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร"
             width={400}
             height={550}
             className={styles.servicesImage}
@@ -230,14 +260,7 @@ export default function HomePage() {
       >
         <h2 className={styles.faqSectionTitle}>คำถามที่พบบ่อย</h2>
         <div className={styles.faqAccordion}>
-          {[
-            { id: 1, question: "สามารถขอใบรับรองแพทย์เพื่อใช้ในราชการที่โรงพยาบาลได้หรือไม่?", answer: "ได้ค่ะ หากใช้แบบฟอร์มของทางเรา สามารถขอใบรับรองแพทย์ได้ทันทีค่ะ แต่หากเป็นแบบฟอร์มจากหน่วยงานอื่น กรุณาให้เจ้าหน้าที่ตรวจสอบก่อน เพื่อพิจารณาความเหมาะสมในการออกใบรับรองค่ะ " },
-            { id: 2, question: "สามารถขอใบรับรองแพทย์ได้มากกว่าหนึ่งฉบับหรือไม่?", answer: "ได้ค่ะ ใบแรก 80 บาทใบถัดไปเพิ่มใบละ 30 บาท" },
-            { id: 3, question: "โรงพยาบาลเปิดให้บริการในวันเสาร์-อาทิตย์หรือไม่?", answer: "ทางเราปิดให้บริการในวันเสาร์ วันอาทิตย์ และวันหยุดนักขัตฤกษ์ค่ะ" },
-            { id: 4, question: "ในวันทำการปกติ โรงพยาบาลเปิดให้บริการถึงเวลาใด?", answer: "คุณหมอจะตรวจตั้งแต่ 08:30 น. ถึง 12.00 น. แต่จะรับคิวตรวจถึง 11.30 น. ค่ะ" },
-            { id: 5, question: "สามารถจองคิวนวดกับทางโรงพยาบาลได้หรือไม่?", answer: "รบกวนโทรติดต่อที่ 055714924 ค่ะ" },
-            { id: 6, question: "ไม่ทราบว่าทางนี้มีกำหนดการฉีดวัคซีนสำหรับเด็กในวันที่เท่าใดคะ?", answer: "สัปดาห์ที่ 2 และสัปดาห์ที่ 4 ของทุกเดือน ในวันพฤหัสบดีช่วงบ่ายค่ะ สามารถติดต่อสอบถามเพิ่มเติมได้ที่หมายเลขโทรศัพท์ 055-716715" }
-          ].map((faq) => (
+          {faqData.map((faq) => (
             <div key={faq.id} className={styles.faqItem}>
               <button
                 onClick={() => toggleFaq(faq.id)}
@@ -290,7 +313,7 @@ export default function HomePage() {
         <div className={styles.contactImageContainer}>
           <Image
             src="/contact/contact-us.jpg"
-            alt="Friendly dentist"
+            alt="อาคารและสถานที่ตั้ง โรงพยาบาลชุมชนเทศบาลเมืองกำแพงเพชร"
             width={400}
             height={550}
             className={styles.contactImage}
