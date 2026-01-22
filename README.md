@@ -1,43 +1,45 @@
 # KPPMCH Service Hub
-**Centralized Hospital Service and Resource Portal**
+**Healthcare Digital Gateway & Information Architecture**
 
 ![System Screenshot](https://kppmch-service.vercel.app/og-image.png)
+---
 
 ### Technical Stack
-| Layer | Technology | Implementation |
-| :--- | :--- | :--- |
-| **Framework** | Next.js (App Router) | React Server Components & SSR |
-| **Frontend** | React.js | Functional Components & Hooks |
-| **Styling** | CSS3 | Component-scoped Modular Styling |
-| **Deployment** | Vercel | Global Edge Network & CI/CD |
-
----
-
-### Core Engineering
-| Module | Technical Detail |
+| Category | Detail |
 | :--- | :--- |
-| **Rendering** | Hybrid SSR/SSG optimized for LCP and CLS |
-| **Performance** | Automatic Image Optimization & Font Preloading |
-| **System** | Centralized Service Hub for medical endpoints |
-| **UI/UX** | Adaptive Breakpoint System for clinical devices |
+| Framework | Next.js (App Router) |
+| Language | JavaScript (ES6+) |
+| Styling | Custom CSS (Responsive Design) |
+| Deployment | Vercel (CI/CD Pipeline) |
 
 ---
 
-### Structure & Operations
-| Path / Command | Description |
+### System Architecture
+| Component | Technical Implementation |
 | :--- | :--- |
-| **`/app`** | Core routing, layouts, and server logic |
-| **`/components`** | Reusable UI library and design system |
-| **`npm install`** | Dependency synchronization |
-| **`npm run build`** | Production bundling and tree shaking |
+| Rendering | Hybrid Strategy (SSG + ISR) for high availability |
+| Components | Server Components for optimized JS bundle size |
+| Routing | Dynamic Route Handlers for scalable navigation |
+| Integration | RESTful service mapping for hospital systems |
 
 ---
 
-### Access & Support
-| Resource | Details |
+### Engineering Focus
+| Feature | Impact |
 | :--- | :--- |
-| **Live URL** | [kppmch-service.vercel.app](https://kppmch-service.vercel.app/) |
-| **Developer** | Ratchanon Noknoy (Software Engineer) |
+| Data Gateway | Centralized access for distributed medical resources |
+| Performance | Core Web Vitals optimization & SEO enhancement |
+| Architecture | Modular design for maintainability & system integrity |
+| Quality | AI-assisted logic validation & code optimization |
 
 ---
-*Under MIT License | Copyright (c) 2025 Ratchanon Noknoy*
+
+### Local Development
+- **Clone:** `git clone https://github.com/ratchanon-noknoy2318/hospital-service-hub.git`
+- **Setup:** `npm install && npm run dev`
+
+---
+
+### Contact
+**Ratchanon Noknoy**
+[LinkedIn](https://www.linkedin.com/in/ratchanon-noknoy/) | [GitHub](https://github.com/ratchanon-noknoy2318)
